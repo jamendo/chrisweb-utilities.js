@@ -611,7 +611,7 @@
          * does the script run in a client
          */
         function isClient() {
-            return isServer();
+            return !isServer();
         }
         utilities.isClient = isClient;
         ;

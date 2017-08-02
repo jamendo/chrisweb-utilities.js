@@ -731,7 +731,7 @@ export module utilities {
      * does the script run in a client
      */
     export function isClient(): boolean {
-        return isServer();
+        return !isServer();
     };
 
     /**

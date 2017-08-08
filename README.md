@@ -1,4 +1,4 @@
-chrisweb utilities.js 0.1.5
+chrisweb utilities.js 0.2.0
 ===========================
 
 Javascript utilities belt for very specific tasks. Testing, fixes and comments are welcome.

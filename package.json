@@ -3,6 +3,7 @@
   "version": "0.1.5",
   "description": "chrisweb utilities",
   "main": "utilities.js",
+  "types": "./typings/utilities.d.ts",
   "scripts": {
     "test": "grunt"
   },
@@ -24,6 +25,8 @@
   },
   "homepage": "https://github.com/chrisweb/chrisweb-utilities.js",
   "devDependencies": {
-    "grunt": "^0.4.5"
+    "@types/node": "8.0.19",
+    "grunt": "^0.4.5",
+    "typescript": "2.4.2"
   }
 }
